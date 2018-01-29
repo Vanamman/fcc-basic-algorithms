@@ -7,7 +7,7 @@ function getIndexToIns(arr, num) {
   return arr.sort(sortArray).indexOf(num);
 }
 
-getIndexToIns([3, 10, 5], 3);
+console.log(getIndexToIns([3, 10, 5], 3));
 
 
 /** ES6 Implementation
