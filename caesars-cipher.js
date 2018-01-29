@@ -1,7 +1,7 @@
 function rot13(str) { // LBH QVQ VG!
     var x;
     var y = "";
-    for (var i = 0; i < str.length; i++){
+    for (var i in str){
         var char = str.charCodeAt(i);
         if ((char) > 77) {
             x = (char - 13);
